@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_extra_small">@dimen/_10ssp</dimen>
+    <dimen name="text_size_extra_medium">@dimen/_13ssp</dimen>
+    <dimen name="text_size_medium">@dimen/_14ssp</dimen>
+    <dimen name="text_size_largest">@dimen/_30ssp</dimen>
+    <dimen name="text_btn_size">@dimen/_14ssp</dimen>
+
+
+    <!--profile images-->
+    <dimen name="img_images_height">@dimen/_60sdp</dimen>
+
+</resources>

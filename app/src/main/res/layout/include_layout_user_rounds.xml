@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="@dimen/img_images_height"
+                    android:layout_height="@dimen/img_images_height"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/profile_dummy"
+                    app:civ_border_color="@color/colorPrimaryDark" />
+                <!--  app:civ_border_width="@dimen/_0sdp" -->
+
+                <ProgressBar
+
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerInParent="true"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+            <com.customviews.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Nivin Sudharker"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size_extra_medium"
+                app:custom_font="@string/app_font_bold" />
+
+            <com.customviews.TypefaceTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:singleLine="true"
+                android:text="Level 2"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size_extra_small"
+                app:custom_font="@string/app_font_bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <com.customviews.GradientTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:gravity="center"
+                android:lines="1"
+                android:singleLine="true"
+                android:text="00:50"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size_largest"
+                app:custom_font="@string/app_font_bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/img_images_height"
+                    android:layout_height="@dimen/img_images_height"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/profile_dummy"
+                    app:civ_border_color="@color/colorPrimaryDark" />
+                <!--  app:civ_border_width="@dimen/_0sdp" -->
+
+                <ProgressBar
+
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerInParent="true"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+            <com.customviews.TypefaceTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="text_dummy_name"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size_extra_medium"
+                app:custom_font="@string/app_font_bold" />
+
+
+            <com.customviews.TypefaceTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Level 2"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size_extra_small"
+                app:custom_font="@string/app_font_bold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

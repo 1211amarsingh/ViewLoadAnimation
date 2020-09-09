@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_font_bold">arial_bold.ttf</string>
+    <string name="app_font_medium">arial_regular.ttf</string>
+    <string name="app_font_regular">arial_regular.ttf</string>
+    <string name="app_font_thin">roboto_thin.ttf</string>
+
+
+</resources>

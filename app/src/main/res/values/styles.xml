@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="app_font_bold">@string/app_font_bold</item>
+        <item name="app_font_medium">@string/app_font_medium</item>
+        <item name="app_font_regular">@string/app_font_regular</item>
+        <item name="app_font_thin">@string/app_font_thin</item>
+
+        <item name="app_text_size_extra_small">@dimen/_11ssp</item>
+        <item name="app_text_size_small">@dimen/_12ssp</item>
+        <item name="app_text_size_normal">@dimen/_14ssp</item>
+        <item name="app_text_size_big">@dimen/_16ssp</item>
+        <item name="app_text_size_extra_big">@dimen/_18ssp</item>
+
+        <item name="app_text_color">@color/colorBlack</item>
+        <item name="app_link_text_color">@color/colorBlack</item>
+        <item name="app_text_color_sec">@color/colorGray</item>
+        <item name="app_text_color_third">@color/colorAccent</item>
+
+        <item name="et_bg_color">@color/colorWhite</item>
+        <item name="et_text_color">@color/colorBlack</item>
+        <item name="et_hint_text_color">@color/colorBlack50</item>
+        <item name="et_img_tint_color">@color/colorBlack</item>
+        <item name="et_text_size">@dimen/_14ssp</item>
+        <item name="et_height">@dimen/_45sdp</item>
+
+
+        <item name="actionBarColor">@color/colorPrimary</item>
+        <item name="actionBarSize">@dimen/_50sdp</item>
+        <item name="actionBarBigTitleSize">@dimen/_18ssp</item>
+        <item name="actionBarTitleSize">@dimen/_16ssp</item>
+        <item name="actionBarSubTitleSize">@dimen/_12ssp</item>
+        <item name="actionBarIconSize">@dimen/_40sdp</item>
+        <item name="actionBarIconTint">@color/colorWhite</item>
+        <item name="actionBarIconTintSec">@color/colorBlack</item>
+        <item name="actionBarLogoSize">@dimen/_45sdp</item>
+
+
+        <item name="app_screen_bg_color">@color/colorWhite</item>
+        <item name="app_divider_color">@color/colorGray</item>
+
+
+        <item name="btn_bg_drawable">@drawable/bg_button</item>
+        <item name="btn_bg_color">@color/colorBlack</item>
+        <item name="btn_text_color">@color/colorWhite</item>
+        <item name="btn_text_size">@dimen/_16ssp</item>
+        <item name="btn_height">@dimen/_50sdp</item>
+
+        <item name="er_bg_color">@color/colorBlack</item>
+        <item name="er_msg_color">@color/colorWhite</item>
+        <item name="er_btn_color">@color/colorAccent</item>
+
+        <item name="app_update_dialog_image">@mipmap/ic_launcher</item>
+        <item name="app_update_dialog_msg_text_size">@dimen/_12ssp</item>
+        <item name="app_update_dialog_msg_text_color">@color/colorBlack</item>
+        <item name="app_update_dialog_btn_text_size">@dimen/_14ssp</item>
+        <item name="app_update_dialog_btn_update_text_color">@color/colorAccent</item>
+        <item name="app_update_dialog_btn_later_text_color">@color/colorGray</item>
+
+        <item name="android:windowEnterTransition">@transition/animationgroup</item>
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+
+    </style>
+
+
+</resources>

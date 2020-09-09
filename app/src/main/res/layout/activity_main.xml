@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/include_layout_user_rounds" />
+
+
+        </LinearLayout>
+
+
+        <com.customviews.TypefaceTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center"
+            android:text="Round 1"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_medium"
+            app:custom_font="?attr/app_font_bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/colorGray50" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="vertical">
+
+
+            <com.customviews.TypefaceTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center"
+                android:text="text_dummy_question"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size_medium"
+                app:custom_font="?attr/app_font_bold" />
+
+
+            <ImageView
+                android:id="@+id/iv_question"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_quiz_images" />
+
+            <LinearLayout
+                android:id="@+id/llquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <com.customviews.TypefaceTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@drawable/bg_answer_default"
+                    android:gravity="center"
+                    android:minHeight="?attr/btn_height"
+                    android:text="Discovery"
+
+                    android:textColor="@color/login_btn_sign_in_text_color"
+                    android:textSize="@dimen/text_btn_size"
+                    app:custom_font="@string/app_font_regular" />
+
+
+                <com.customviews.TypefaceTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/bg_answer_default"
+                    android:gravity="center"
+                    android:minHeight="?attr/btn_height"
+                    android:text="Enterprise"
+
+                    android:textColor="@color/login_btn_sign_in_text_color"
+                    android:textSize="@dimen/text_btn_size"
+                    app:custom_font="@string/app_font_regular" />
+
+                <com.customviews.TypefaceTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+
+                    android:background="@drawable/bg_answer_default"
+                    android:gravity="center"
+                    android:minHeight="?attr/btn_height"
+                    android:text="Columbia"
+
+                    android:textColor="@color/login_btn_sign_in_text_color"
+                    android:textSize="@dimen/text_btn_size"
+                    app:custom_font="@string/app_font_regular" />
+
+                <com.customviews.TypefaceTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/bg_answer_default"
+                    android:gravity="center"
+                    android:minHeight="?attr/btn_height"
+                    android:text="Challenger"
+
+                    android:textColor="@color/login_btn_sign_in_text_color"
+                    android:textSize="@dimen/text_btn_size"
+                    app:custom_font="@string/app_font_regular" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
